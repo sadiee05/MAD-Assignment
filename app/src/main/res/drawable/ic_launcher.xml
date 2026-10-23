@@ -1,0 +1,7 @@
+<!-- this file defines app interface or configuration resources -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp" android:height="96dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="#2E7D32" android:pathData="M12,12m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+    <path android:fillColor="#FFFFFF" android:pathData="M7,9h10l-1,9H8z M9,6h6v2H9z" />
+</vector>

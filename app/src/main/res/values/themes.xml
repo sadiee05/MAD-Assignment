@@ -1,0 +1,25 @@
+<!-- this file defines the app theme styles -->
+<resources>
+    <style name="Theme.SmartPantry" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/text</item>
+        <item name="colorPrimaryVariant">@color/text</item>
+        <item name="colorOnPrimary">@color/background</item>
+        <item name="colorSecondary">@color/highlight</item>
+        <item name="colorOnSecondary">@color/text</item>
+        <item name="colorSurface">@color/card</item>
+        <item name="colorOnSurface">@color/text</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+        <item name="android:textColorHint">@color/text_muted</item>
+        <item name="bottomNavigationStyle">@style/Widget.SmartPantry.BottomNav</item>
+    </style>
+
+    <style name="Widget.SmartPantry.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/card</item>
+        <item name="itemIconTint">@color/text</item>
+        <item name="itemTextColor">@color/text</item>
+        <item name="itemBackground">@drawable/nav_item_bg</item>
+    </style>
+</resources>

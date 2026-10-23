@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this file defines the colors used by the app -->
+<resources>
+    <color name="background">#FAF7FF</color>   <!-- main background -->
+    <color name="card">#E6DDF7</color>         <!-- cards and sections -->
+    <color name="highlight">#BBA7E0</color>    <!-- highlights -->
+    <color name="fresh">#FAF7FF</color>        <!-- freshness and stock -->
+    <color name="text">#514664</color>         <!-- text and buttons -->
+    <color name="warning">#F7D9CF</color>      <!-- expiry warnings -->
+    <color name="text_muted">#B3514664</color> <!-- text colour at 70% opacity -->
+</resources>

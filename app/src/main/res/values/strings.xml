@@ -1,0 +1,4 @@
+<!-- this file stores text values used by the app -->
+<resources>
+    <string name="app_name">Smart Pantry</string>
+</resources>
