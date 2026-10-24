@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this file declares the app components and settings -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartPantry">
+
+        <!-- Home screen(the pantry list) -->
+        <activity android:name=".PantryActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AddEditIngredientActivity"
+            android:parentActivityName=".PantryActivity" />
+        <activity android:name=".SuggestedRecipesActivity" />
+        <activity android:name=".RecipeDetailActivity"
+            android:parentActivityName=".SuggestedRecipesActivity" />
+        <activity android:name=".SettingsActivity" />
+    </application>
+</manifest>
